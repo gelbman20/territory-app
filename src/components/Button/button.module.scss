@@ -1,0 +1,32 @@
+@import "@/assets/scss/variables.scss";
+
+.button {
+  display: inline-block;
+  padding: map-get($button, 'padding');
+  border-radius: 5px;
+  font-size: map-get($button, 'size');
+  cursor: pointer;
+}
+
+.primary,
+.secondary {
+  color: white;
+}
+
+.primary {
+  background-color: $primary;
+}
+
+.secondary {
+  background-color: $secondary;
+}
+
+.sm {
+  padding: map-get($button-sm, 'padding');
+  font-size: map-get($button-sm, 'size');
+}
+
+.lg {
+  padding: map-get($button-lg, 'padding');
+  font-size: map-get($button-lg, 'size');
+}

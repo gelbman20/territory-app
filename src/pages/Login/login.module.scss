@@ -1,0 +1,27 @@
+@import "@/assets/scss/variables.scss";
+
+.login {
+  display: block;
+  color: #282c34;
+  background-color: white;
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.content {
+  padding: 10px 10px 15px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid rgba($secondary, .3);
+}
